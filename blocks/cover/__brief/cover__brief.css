@@ -1,0 +1,18 @@
+.cover__brief {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    z-index: 1;
+    gap: 32px;
+    max-width: 560px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+@media screen and (max-width: 525px) {
+    .cover__brief {
+        gap: 16px;
+        max-width: 288px;
+    }
+} 
