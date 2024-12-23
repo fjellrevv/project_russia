@@ -1,5 +1,7 @@
 .cover__brief {
     display: flex;
+    text-decoration: none;
+    color: white;
     flex-direction: column;
     margin: 0 auto;
     z-index: 1;
